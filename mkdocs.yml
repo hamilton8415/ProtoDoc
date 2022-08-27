@@ -1,6 +1,7 @@
-site_name: WordPressPCL
-site_url: https://hamilton8415.github.io/ProtoDoc/
+site_name: MBARI-WEC 
+site_url: https://example.com/
 nav:
-    - Home: index.md
+  - Home: index.md
+  - License: license.md
 
 theme: readthedocs

@@ -1,4 +1,4 @@
-# Home
+# Introduction
 
 The MBARI Wave-Energy conveter is a point-absorber type wave-energy conveter that has been operating in Monterey Bay, CA since 2014.
 This system was developed  as part of  [Monterey Bay Aquarium Research Institutes](http://www.mbari.org) goals of advancing and demonstrating an autonomous and persistent presence of oceanographic instrumentation in the worlds oceans.
