@@ -1,7 +1,8 @@
 site_name: MBARI-WEC 
 site_url: https://example.com/
 nav:
-  - Home: index.md
+  - Home: Introduction.md
+  - Architecture: Architecture.md
   - License: license.md
 
 theme: readthedocs
