@@ -8,16 +8,16 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>License - MBARI-WEC</title>
+  <title>Tutorials - MBARI-WEC</title>
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   
   <script>
     // Current page data
-    var mkdocs_page_name = "License";
-    var mkdocs_page_input_path = "license.md";
-    var mkdocs_page_url = "/license/";
+    var mkdocs_page_name = "Tutorials";
+    var mkdocs_page_input_path = "tutorials.md";
+    var mkdocs_page_url = "/tutorials/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js" defer></script>
@@ -71,9 +71,21 @@
     <a class="" href="../atseaoperation/">At Sea Operation</a>
 	    </li>
           
-            <li class="toctree-l1">
+            <li class="toctree-l1 current">
 		
-    <a class="" href="../tutorials/">Tutorials</a>
+    <a class="current" href="./">Tutorials</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#tutorial-1-installation">Tutorial 1: Installation</a></li>
+    
+
+    <li class="toctree-l2"><a href="#tutorial-2-run-the-simulator">Tutorial 2: Run the Simulator</a></li>
+    
+
+    <li class="toctree-l2"><a href="#tutorial-3-write-and-control-code">Tutorial 3: Write and Control Code</a></li>
+    
+
+    </ul>
 	    </li>
           
             <li class="toctree-l1">
@@ -86,12 +98,9 @@
     <a class="" href="../theory/">Theory</a>
 	    </li>
           
-            <li class="toctree-l1 current">
+            <li class="toctree-l1">
 		
-    <a class="current" href="./">License</a>
-    <ul class="subnav">
-            
-    </ul>
+    <a class="" href="../license/">License</a>
 	    </li>
           
             <li class="toctree-l1">
@@ -121,7 +130,7 @@
     
       
     
-    <li>License</li>
+    <li>Tutorials</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -131,8 +140,27 @@
           <div role="main">
             <div class="section">
               
-                <p>Copyright 2022 Monterey Bay Aquarium Research Institute</p>
-<p><a href="http://www.apache.org/licenses/LICENSE-2.0">Licensed under the Apache License, Version 2.0</a></p>
+                <h2 id="tutorial-1-installation">Tutorial 1: Installation</h2>
+<p>These tutorials will get the required sofware set up on your computer.  The software used by this system have dependencies on a number of software packages with specific versions.<br />
+There are a few ways to install and use the software that provide equivalent capabilities, and are a matter of personal
+preference.  Only one of the following tutorials is required. </p>
+<p>The simplest approach is to use <a href="www.docker.org">docker</a>. Docker images are provided that have pre-configured isntallations with all required dependencies, so this is the fast way to get started.</p>
+<ul>
+<li><a href="Tutorials/Installation/Install_docker.md">Install (docker)</a></li>
+</ul>
+<p>It is also straightforward to simply install the required software and dependencies using apt on Linux.  Some configuration is then required and details are provided here:</p>
+<ul>
+<li><a href="Tutorials/Installation/Install_apt.md">Install (apt)</a></li>
+</ul>
+<h2 id="tutorial-2-run-the-simulator">Tutorial 2: Run the Simulator</h2>
+<p>This tutorial will get the Gazebo Simulation of the WEC running on your computer. With this done you can see the operation of the simulator and perform actions that control it's behavior (e.g. Change the sea-state).</p>
+<ul>
+<li><a href="Tutorials/Simulation/Simulations.md">Simulate</a></li>
+</ul>
+<h2 id="tutorial-3-write-and-control-code">Tutorial 3: Write and Control Code</h2>
+<ul>
+<li><a href="../Tutorials/ROS2/ROS2/">Simulate</a></li>
+</ul>
               
             </div>
           </div>
@@ -140,10 +168,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../citation/" class="btn btn-neutral float-right" title="How to Cite">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../resources/" class="btn btn-neutral float-right" title="Resources">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../theory/" class="btn btn-neutral" title="Theory"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../atseaoperation/" class="btn btn-neutral" title="At Sea Operation"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -169,10 +197,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../theory/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../atseaoperation/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../citation/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../resources/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
