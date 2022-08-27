@@ -1,7 +1,3 @@
-safdsaf
-saffdsa
-sadffdsa
-
 # Background  
 
 The MBARI Wave-Energy conveter is a point-absorber type wave-energy conveter that has been operating in Monterey Bay, CA since 2014.
