@@ -1,0 +1,6 @@
+site_name: WordPressPCL
+site_url: https://hamilton8415.github.io/ProtoDoc/
+nav:
+    - Home: index.md
+
+theme: readthedocs
